@@ -1,0 +1,38 @@
+/* Importar una fuente desde goolge font  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Selectores de tipo etiqueta */
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: #4615cd;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Selectores de tipo clase  */
+
+.mi_clase {
+    color: brown;
+    font-size: 40px;
+}
+
+.my_list {
+    color: #2b89e2;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Selector de tipo id  */
+
+#salchicha_negro {
+    width: 300px;
+}
+
+#salchicha_manchado {
+    width: 300px;
+}
+
