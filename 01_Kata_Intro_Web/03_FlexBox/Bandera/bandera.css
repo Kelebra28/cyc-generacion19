@@ -3,9 +3,17 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 
+
+.bandera {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    border: 2px solid black;
+}
 .parte_izquierda {
     height: 100%;
     width: 35%;
