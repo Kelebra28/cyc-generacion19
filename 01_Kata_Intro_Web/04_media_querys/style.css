@@ -1,0 +1,69 @@
+/* Los media querys sirven para poder decir como se va a compartar nuestros elementos 
+dependiendo del tamaño de l pantalla del disposiitivo en el que el usuario se encuentre
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    /* posicion fixed/fija -> es cundo nuestro elemento no va a cambiar de posicion */
+    position: fixed;
+    /* bottom: 10px; */
+    /* right: 20px; */
+    /* top: 10px; */
+    /* left: 60px; */
+    
+}
+
+main {
+    width: 50%;
+    height: 25%;
+    background-color: brown;
+    margin-top: 200px;
+    /* la posicion relativa -> nos ayuda a poder utlizar la posicion absoluta, el elemento hijo
+    se movera dependiendo del padre
+    */
+    position: relative;
+    /* z-index -> es la profundidad de nuestro elemento */
+    z-index: -1;
+}
+
+article {
+    width: 50%;
+    height: 25%;
+    background-color: darkblue;
+    /* el elemento no se movera, solo si el padre se mueve */
+    position: absolute;
+    bottom: 425px;
+    right: 100px;
+}
+
+/* Todos los estilos de mi pagina mientras la pantalla mida menos de 900px */
+@media screen and (max-width: 900px){
+    body {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/* Todos los estilos de mi pagina mientras la pantalla mida menos de 600px */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: blueviolet;
+}
+
+div {
+    width: 100%;
+}
+}
+
