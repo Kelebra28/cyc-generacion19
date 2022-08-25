@@ -48,6 +48,7 @@ console.log(preguntaNombre)
 // Hola Ricardo: tu direccion es -> con el numero ->
 // -> Pregutar al usuario su edad o  que edad cumplira este año y mostrar en la consola:
 //    que año nacio
+// Que muestren que tipode dato es 
 
 
 
