@@ -19,8 +19,8 @@ const pedirPokemon = (pokemon) => {
  pedirPokemon(100)
 
  // Challenge 
- // Sacar la informacion correspondite de la pokedex, nombre, id. imagenes y pintarlas en una tarjeta
+ // Sacar la informacion correspondite de la pokedex, nombre, id. imagenes 
 
  //Hacer una peticion a la API de Rick and Morty
- // Sacar informacion relevante y ponerla es cards
+ // Sacar informacion relevante 
  // https://rickandmortyapi.com/
